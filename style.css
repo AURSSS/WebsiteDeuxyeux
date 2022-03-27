@@ -45,11 +45,22 @@ form, .content {
 }
 .btn {
 	padding: 10px;
-	font-size: 15px;
+	font-size: 30px;
 	color: white;
+	font-weight: bold;
 	background: #5F9EA0;
 	border: none;
 	border-radius: 5px;
+	min-width: 20%;
+	min-height: 10%;
+	max-width: 200;
+	max-height:65px;
+}
+
+
+.btn:hover{
+	background: #8b0000 ;
+	
 }
 .error {
 	width: 92%; 
@@ -69,8 +80,20 @@ form, .content {
 }
 
 .myimg{
-width:100%;
-height:40%;
+max-width:100%;
+min-width: 300px;
+height: auto;
+
+}
+
+.borderaround{
+	border-style: double;
+	
+}
+.textteam{
+	font-size: 29px;
+	font-weight: bold;
+	
 }
 
 .imgDY{
